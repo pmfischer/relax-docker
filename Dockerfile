@@ -177,10 +177,10 @@ ARG TARGETOS
 ARG TARGETARCH
 
 # Git URL of the RelaX repository to clone from (default: dbis-uibk/relax)
-ARG REPOSITORY=https://github.com/dbis-uibk/relax.git
+ARG REPOSITORY=https://github.com/pmfischer/relax.git
 # The branch, tag or SHA to point to in the cloned RelaX repository
 # (default: gh-pages)
-ARG REF=gh-pages
+ARG REF=api
 # Using ARG to set ENV
 ENV ENV_REPOSITORY=$REPOSITORY
 ENV ENV_REF=$REF
